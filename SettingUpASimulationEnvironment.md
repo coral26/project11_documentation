@@ -186,10 +186,13 @@ Install additional ROS packages available for apt-get
     sudo apt install ros-melodic-geographic-msgs
     sudo apt install ros-melodic-geodesy
     sudo apt install ros-melodic-pid
+    sudo apt install ros-melodic-nodelet
+    sudo apt install ros-melodic-dynamic-reconfigure
 
 The python gdal package is used by mbes_sim, so make sure it's installed.
 
-    sudo apt install python-gdal    
+    sudo apt install python-gdal 
+    sudo apt install libgeos++-dev
     
 ## Fetching Project11 ROS Packages (contributor version)
 The standard way in "git" to contribute code and other changes back into a repository is to "fork" the repository first. This creates a copy of the repository in your own github account that you can modify as you wish. But you cannot modify the code in the forked version of the repository directly, because it is on the github server. Rather you make a "clone" of if on your local machine where you can make changes and "push" them back to your forked copy on github. Finally, if you want to contribute your changes back to the original offical CCOMJHC repository you navigate to that repo on github and create a "pull request". This is a request for the maintainer of the CCOMJHC repository to "pull" your changes back into the original repository. If he/she agrees with your suggested changes, your request will be granted and your code will become part of the official archive.
