@@ -188,6 +188,7 @@ Install additional ROS packages available for apt-get
     sudo apt install ros-melodic-pid
     sudo apt install ros-melodic-nodelet
     sudo apt install ros-melodic-dynamic-reconfigure
+    sudo apt install ros-melodic-rqt-reconfigure
 
 The python gdal package is used by mbes_sim, so make sure it's installed.
 
